@@ -1,0 +1,242 @@
+    body{
+    margin: 0px;
+    background-image: url(../Imagenes/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    /*CSS para la imagen del contenedor hero*/
+    #Hero-img{
+    padding: 200px;
+    background-image:url("../Imagenes/katherine_johnson_john_glenn.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    }
+
+    /*CSS para el H1 del contenedor hero*/
+    #Hero-text{
+    color: white;
+    text-shadow: 2px 2px purple;
+    text-align: center;
+    font-size: 90px;
+    font-family: Playfair Display;
+    }
+
+    /*CSS para la barra de navegación*/
+    .topnav {
+    overflow: hidden;
+    background-color: none;
+    opacity:1;
+    padding-right: 0px;
+    padding-top: 0px;
+    top: 40px;
+    position: relative;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 20px;
+    }
+      
+    /*CSS para los enlaces del nav*/
+    .topnav a {
+      color: #f1f1f1;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: ubuntu;
+      font-size: 25px;
+      font-weight: 500;
+      text-decoration:solid;
+    }
+
+    .topnav a:hover {
+    background-color:rgba(80, 5, 75, 0.391);
+    padding: 20px;
+    opacity: 1;
+    }
+    /*CSS para el contenedor principal*/
+    main{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top:0px ;
+    background-color: #F2F2F2;
+    }
+    /*CSS para los H2*/
+    h2{
+    margin: 0px;
+    text-align: center;
+    text-shadow: 1px 1px purple;
+    font-size: 50px;
+    font-family: Playfair Display;
+}
+#Section1{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(#E6D5ED, #F7DFF0);
+  font-family: Dosis;
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#Section2{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(#F7DFF0, #E6D5ED);
+  font-family: Dosis;
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#Section3{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(#E6D5ED, #F7DFF0);
+  font-family: Dosis;
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#Section4{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(#F7DFF0, #E6D5ED);
+  font-family: Dosis;
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+#Section5{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(#E6D5ED, #F7DFF0);
+  font-family: Dosis;
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+ul{
+  list-style: nube url(../Imagenes/gwo-gzlwong.gif);
+   }
+
+  footer{
+  text-align: center;
+  background-color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+
+  #footer-text{
+  padding-top: 20px;
+  font-family: Playfair Display;
+  font-size: 35px;
+  font-weight: bold;
+  }
+
+#Vídeo{
+justify-content: center;
+padding-top: 60px;
+padding-bottom: 30px;
+display: flex;
+}
+#Galería{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: plum;
+  text-align: center;
+}
+.galeria{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  height: 350px;
+}
+
+.galeria:hover {
+  box-shadow: 0 0 2px 1px purple;
+}
+
+@media screen and (max-width: 1234px) {
+  #Galería{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .galeria{
+    margin-top: 20px;
+  }
+  }
+@media screen and (max-width: 940px) {
+  #Hero-img{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto; 
+  }
+  #Hero-text{
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+    margin-top: 130px;
+
+  }
+  .topnav{
+    position: absolute;
+    text-align: center;
+    padding-left: 80px;
+   
+  }
+  .topnav a{
+    padding: 7px 7px;
+    font-size: medium;
+    text-align: center;
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .topnav{
+      padding: 0px;
+      margin-top: 70px;
+    }
+    .topnav a{
+      padding: 4px 4px;
+      font-size:medium;
+    }
+    
+    #Hero-text{
+      padding-bottom: 70px;
+      padding-top: 50px;
+      font-size: 40px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    #Kat{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #Galería{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 100%;
+    }
+    .galeria{
+      margin-top: 20px;
+      width: 60%;
+      height: 70%;
+    }
+    
+  
+    #footer-text{
+      font-size: large;
+    }
+    img{
+      width: 50%;
+    }
+    main{
+      justify-content: center;
+    }
+  }
